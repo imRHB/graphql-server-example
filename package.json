@@ -1,0 +1,19 @@
+{
+    "name": "graphql-server-example",
+    "version": "1.0.0",
+    "description": "An example of getting started with the AS4 alpha",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@apollo/server": "^4.10.4",
+        "graphql": "^16.9.0"
+    }
+}
